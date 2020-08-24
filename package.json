@@ -1,23 +1,54 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "~1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.6.5",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/drawer": "^5.9.0",
+    "@react-navigation/material-bottom-tabs": "^5.2.13",
+    "@react-navigation/native": "^5.7.0",
+    "@react-navigation/stack": "^5.7.0",
+    "accordion-collapse-react-native": "^0.3.1",
+    "asyncstorage": "^1.5.0",
     "expo": "~38.0.8",
+    "expo-notifications": "~0.3.3",
+    "expo-splash-screen": "^0.5.0",
     "expo-status-bar": "^1.0.2",
+    "expo-updates": "~0.2.10",
+    "firebase": "^7.16.0",
+    "formik": "^2.1.5",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.1.tar.gz",
-    "react-native-web": "~0.11.7"
+    "react-native": "~0.62.2",
+    "react-native-check-box": "^2.1.7",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-global-props": "^1.1.5",
+    "react-native-htmlview": "^0.16.0",
+    "react-native-paper": "^3.10.1",
+    "react-native-picker-select": "^8.0.0",
+    "react-native-razorpay": "^2.2.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-unimodules": "~0.10.1",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "^10.7.0",
+    "yup": "^0.29.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "babel-jest": "~25.2.6",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.11.0",
     "babel-preset-expo": "~8.1.0"
   },
-  "private": true
+  "private": true,
+  "name": "DoneWithIt",
+  "version": "1.0.0"
 }

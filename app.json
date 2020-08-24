@@ -1,26 +1,33 @@
 {
   "expo": {
-    "name": "DoneWithIt",
-    "slug": "DoneWithIt",
+    "name": "Learner Circle",
+    "slug": "learnercircle",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yashburad.learnercircle"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./app/assets/favicon.png"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.yashburad.learnercircle"
+    },
+    "description": "",
+    "sdkVersion": "38.0.0",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
